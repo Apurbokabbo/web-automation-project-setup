@@ -1,5 +1,5 @@
 
-# FastPay Support Panel Automation
+# Web Automation Project Setup
 
 ## Overview
 This is an automated testing framework for the FastPay Support Panel web application, built using Selenium with Java. The framework implements the Page Object Model (POM) design pattern and uses TestNG for test execution.
@@ -23,7 +23,7 @@ This is an automated testing framework for the FastPay Support Panel web applica
 
 ## Project Structure
 ```
-fastpay-support-panel-automation/
+Web Automation Project/
 ├── src/
 │   ├── main/
 │   │   └── java/
@@ -34,23 +34,11 @@ fastpay-support-panel-automation/
 │   │       ├── pages/           # Page Object classes
 │   │       │   ├── BasePage.java
 │   │       │   ├── BlockUserListPage.java
-│   │       │   ├── CustomerReportPage.java
-│   │       │   ├── DashboardPage.java
-│   │       │   ├── DataBundleLogPage.java
-│   │       │   ├── ForgotPasswordPage.java
-│   │       │   ├── LoginPage.java
-│   │       │   ├── SearchUserPage.java
-│   │       │   └── StoreManagementPage.java
+│   │       │   ├
 │   │       │
 │   │       ├── testcases/       # Test case classes
 │   │       │   ├── BlockUserListTestCase.java
-│   │       │   ├── CustomerReportTestCase.java
-│   │       │   ├── DashboardPageTestCases.java
-│   │       │   ├── DataBundleLogTestCase.java
-│   │       │   ├── ForgotPasswordPageTestCase.java
-│   │       │   ├── LoginPageTestCase.java
-│   │       │   ├── SearchUserTestCases.java
-│   │       │   └── StoreManagementTestCase.java
+│   │       │   ├──
 │   │       │
 │   │       └── utilities/       # Helper classes
 │   │           ├── BaseDriver.java
@@ -58,7 +46,7 @@ fastpay-support-panel-automation/
 │   │           └── URLs.java
 │   │
 │   └── resources/               # Resource/config files
-│       ├── dashboardChangePassword.txt
+│       ├── file.txt
 │       └── logback.xml
 │
 ├── RegressionTestSuite.xml      # TestNG regression suite
