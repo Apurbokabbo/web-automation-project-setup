@@ -14,7 +14,11 @@ public class LoginPageTestcase extends BaseDriver {
     homePageObj.findElement(homePageObj.email_input_field).sendKeys(homePageObj.USER_EMAIL);
     homePageObj.findElement(homePageObj.password_input_field).sendKeys(homePageObj.USER_PASSWORD);
     homePageObj.findElement(homePageObj.login_button).click();
-
+     boolean toaster_visible = homePageObj.isElementVisible(homePageObj.toaster_close_button,4);
+     if(toaster_visible){
+         homePageObj.clickOn(homePageObj.toaster_close_button);
+     }
+    Thread.sleep(2000);
     homePageObj.fluentWaitClickOnElement(homePageObj.resident_button,25);
     homePageObj.fluentWaitClickOnElement(homePageObj.add_resident_button,10);
     homePageObj.isElementVisible(homePageObj.add_resident_page_tittle_locator,10);

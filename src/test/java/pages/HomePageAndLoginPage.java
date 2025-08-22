@@ -11,6 +11,8 @@ public class HomePageAndLoginPage extends BasePage{
     public By login_button = By.xpath("//button[@type='submit']");
 
 
+
+
     //Resident
     public By resident_button = By.xpath("//a[normalize-space()='Resident']");
     public By add_resident_button =By.xpath("//a[contains(@class,'hidden lg:block')]//button[contains(@type,'button')]");
@@ -26,5 +28,5 @@ public class HomePageAndLoginPage extends BasePage{
     public By cancel_button =By.xpath("//div[@class='flex justify-end mt-6 gap-x-6']//a");
     public By sex_input_field =By.xpath("//body[1]/div[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[6]/div[1]/div[1]/div[1]");
     public By sex_input_field_male =By.xpath("//div[contains(text(),'Male')]");
-    public By a =By.xpath("");
+    public By toaster_close_button =By.xpath("//button[@class='px-1 hover:bg-gray-300 rounded-sm']//*[name()='svg']");
 }
