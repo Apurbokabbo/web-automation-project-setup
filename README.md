@@ -179,4 +179,4 @@ allure open allure-report
 - `v0.0.1-SNAPSHOT`: Initial framework setup
 
 ## License
-© 2025 **QA Team** - [NewrozTech]. All rights reserved.
+© 2025 **A M Kabbo Hossain** - [SQA Engineer]. All rights reserved.
