@@ -26,7 +26,7 @@ public class BaseDriver {
 
     public static void setDriver(WebDriver driver) {
         BaseDriver.lOCAL_DRIVER.set(driver);
-        driver.get("https://www.selenium.dev/");
+        driver.get("https://app-dev.empathika.com/app/medication/auth/login");
 
 
         new WebDriverWait(driver, Duration.ofSeconds(10)).until(

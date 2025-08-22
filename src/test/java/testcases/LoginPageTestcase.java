@@ -1,15 +1,18 @@
 package testcases;
 
 import org.testng.annotations.Test;
+import pages.HomePageAndLoginPage;
 import utilities.BaseDriver;
 
 public class LoginPageTestcase extends BaseDriver {
-
+    HomePageAndLoginPage homePageObj = new HomePageAndLoginPage();
 @Test
-    public void loginTest() throws InterruptedException {
-        // Implement the login test logic here
-        // Example: Navigate to login page, enter credentials, submit form, etc.
-        System.out.println("Login test executed.");
-        Thread.sleep(2000);
+    public void registrationFlowVerify() throws InterruptedException {
+
+    homePageObj.isElementVisible(homePageObj.login_button,4);
+    homePageObj.findElement(homePageObj.email_input_field).sendKeys(homePageObj.USER_EMAIL);
+    homePageObj.findElement(homePageObj.password_input_field).sendKeys(homePageObj.USER_PASSWORD);
+
+    Thread.sleep(2000);
     }
 }
