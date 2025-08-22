@@ -2,7 +2,7 @@
 # Web Automation Project Setup
 
 ## Overview
-This is an automated testing framework for the FastPay Support Panel web application, built using Selenium with Java. The framework implements the Page Object Model (POM) design pattern and uses TestNG for test execution.
+This is an automated testing framework for the  web application, built using Selenium with Java. The framework implements the Page Object Model (POM) design pattern and uses TestNG for test execution.
 
 ## Technology Stack
 - Java 21
