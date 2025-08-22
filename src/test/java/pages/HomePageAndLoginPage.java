@@ -23,10 +23,10 @@ public class HomePageAndLoginPage extends BasePage{
     public By addmission_date_input_button =By.xpath("//input[@id='dateOfAdmission']");
     public By select_adddnission_date =By.xpath("//ul[@class='ant-picker-ranges']");
     public By gender_input_field=By.xpath("//body[1]/div[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[5]/div[1]/div[1]");
-    public By gender_male =By.xpath("//div[@class='ant-select-item ant-select-item-option ant-select-item-option-active']//div[@class='ant-select-item-option-content'][normalize-space()='Male']");
+    public By gender_male =By.xpath("//div[@title='Male']");
     public By save_and_submit_button =By.xpath("//div[@class='flex justify-end mt-6 gap-x-6']//button[@type='submit']");
     public By cancel_button =By.xpath("//div[@class='flex justify-end mt-6 gap-x-6']//a");
     public By sex_input_field =By.xpath("//body[1]/div[1]/div[1]/div[2]/main[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[6]/div[1]/div[1]/div[1]");
-    public By sex_input_field_male =By.xpath("//div[contains(text(),'Male')]");
+    public By sex_input_field_male =By.xpath("/html/body/div[3]/div/div/div[2]/div/div/div/div[2]/div");
     public By toaster_close_button =By.xpath("//button[@class='px-1 hover:bg-gray-300 rounded-sm']//*[name()='svg']");
 }

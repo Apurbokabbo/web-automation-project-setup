@@ -30,7 +30,8 @@ public class LoginPageTestcase extends BaseDriver {
     homePageObj.clickOn(homePageObj.gender_input_field);
     homePageObj.clickOn(homePageObj.gender_male);
     homePageObj.clickOn(homePageObj.sex_input_field);
-    homePageObj.clickOn(homePageObj.gender_male);
+    homePageObj.clickOn(homePageObj.sex_input_field_male);
+    homePageObj.scrollToElement(homePageObj.cancel_button);
 
 
     homePageObj.clickOn(homePageObj.cancel_button);
