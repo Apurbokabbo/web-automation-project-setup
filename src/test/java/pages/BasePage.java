@@ -26,10 +26,14 @@ public class BasePage {
 
     public File _FILE_PATH = new File("src/test/resources/file.txt");
 
-    //Credentials
-    Dotenv dotenv = Dotenv.load();
-    public String USER_EMAIL = dotenv.get("USER_EMAIL");
+//    //Credentials
+////    Dotenv dotenv = Dotenv.load();
+//    public  String USER_EMAIL= dotenv.get("USER_EMAIL");
+//    public  String USER_PASSWORD = dotenv.get("USER_PASSWORD");
 
+
+    public String USER_EMAIL= ("zalam+org@tulip-tech.com");
+    public  String USER_PASSWORD = ("Bangladesh1#");
 
 
 
@@ -37,7 +41,6 @@ public class BasePage {
     private static final String UPPERCASE_CHARACTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
     private static final String NUMERIC_CHARACTERS = "0123456789";
     private static final String SPECIAL_CHARACTERS = "$%&_+-.@#";
-    public final String DOWNLOAD_PATH = "D:\\fastpay-support-panel-automation\\src\\test\\resources\\downloads";
 
 
     public static SoftAssert softAssert = new SoftAssert();
